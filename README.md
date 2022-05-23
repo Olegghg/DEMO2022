@@ -132,16 +132,16 @@ NFS
 
 apt install nfs-common nfs-kernel-server
 
-# systemctl start nfs-server
+systemctl start nfs-server
 
-# systemctl enable nfs-server
+systemctl enable nfs-server
 
-# nano /etc/exports
+nano /etc/exports
 
 /путь к папке   192.168.1.0/24(rw,no_root_squash)
 /путь к папке   172.168.1.0/24(rw,no_root_squash)
 
-# systemctl restart nfs-server
+systemctl restart nfs-server
 
 На Web-ах
 
