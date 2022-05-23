@@ -94,6 +94,8 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715966-c2f87b11-69be-4298-aa35-fd65cb776ced.png)
 
+Альтернатива SMB в конце инструкции.
+
 ![image](https://user-images.githubusercontent.com/99468773/169715977-293cf956-97e3-44fe-b58e-255d8c83ed9c.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169715985-63bf38b8-55d4-4425-951a-4f536cc5e27f.png)
@@ -125,3 +127,25 @@ cp rootCA.crt /mnt/storage
 ![image](https://user-images.githubusercontent.com/99468773/169716768-a023c822-b9d7-487f-9e4f-e4039b20656a.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169716786-1331968a-5909-40d2-b2de-e5bd5b4cb7af.png)
+
+NFS
+
+apt install nfs-common nfs-kernel-server
+
+# systemctl start nfs-server
+
+# systemctl enable nfs-server
+
+# nano /etc/exports
+
+/путь к папке   192.168.1.0/24(rw,no_root_squash)
+/путь к папке   172.168.1.0/24(rw,no_root_squash)
+
+# systemctl restart nfs-server
+
+На Web-ах
+
+![image](https://user-images.githubusercontent.com/99468773/169889059-a32ae49d-faaa-4e83-a5ef-2e646cc10a38.png)
+
+reboot
+
