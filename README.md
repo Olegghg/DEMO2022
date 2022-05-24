@@ -138,15 +138,16 @@ systemctl enable nfs-server
 
 nano /etc/exports
 
-/путь к папке   192.168.1.0/24(rw,no_root_squash)
-/путь к папке   172.168.1.0/24(rw,no_root_squash)
+/путь к папке   192.168.1.0/24(rw,no_subtree_check)
+/путь к папке   172.168.1.0/24(rw,no_subtree_check)
 
 systemctl restart nfs-server
 
 На Web-ах
 Установить nfs-common
 
-![image](https://user-images.githubusercontent.com/99468773/169889059-a32ae49d-faaa-4e83-a5ef-2e646cc10a38.png)
+В файл /etc/fstab 
+192.168.100.200:/mnt/storage /opt/share nfs rw
 
 reboot
 
