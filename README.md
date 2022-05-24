@@ -138,8 +138,8 @@ systemctl enable nfs-server
 
 nano /etc/exports
 
-/путь к папке   192.168.1.0/24(rw,no_subtree_check)
-/путь к папке   172.168.1.0/24(rw,no_subtree_check)
+/путь к папке   192.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
+/путь к папке   172.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
 
 systemctl restart nfs-server
 
