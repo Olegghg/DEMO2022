@@ -120,6 +120,8 @@ cp www.demo.wsr.crt /mnt/storage
 
 cp rootCA.crt /mnt/storage
 
+chmod -R 777 /mnt/storage
+
 ![image](https://user-images.githubusercontent.com/99468773/169716664-7cdc8097-13bb-4a56-a9e5-4a7c0be81dbb.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169716674-ddec7aad-e7db-4f68-bccb-5ed089be0b32.png)
