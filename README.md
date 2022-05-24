@@ -144,6 +144,7 @@ nano /etc/exports
 systemctl restart nfs-server
 
 На Web-ах
+Установить nfs-common portmap
 
 ![image](https://user-images.githubusercontent.com/99468773/169889059-a32ae49d-faaa-4e83-a5ef-2e646cc10a38.png)
 
