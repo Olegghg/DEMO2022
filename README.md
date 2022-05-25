@@ -124,6 +124,9 @@ systemctl restart nfs-server
 На Web-ах
 Установить nfs-common
 
+mkdir /opt/share
+chmod 777 /opt/share
+
 В файл /etc/fstab 
 192.168.100.200:/mnt/storage /opt/share nfs rw
 
