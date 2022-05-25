@@ -76,6 +76,8 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715872-ddfb1b7e-daad-4912-adf4-d62d7199d824.png)
 
+# Если scp не работала ввести на обоих RTR systemctl stop nftables и продолжить
+
 ![image](https://user-images.githubusercontent.com/99468773/169715891-eb5cd538-6eb9-4d3c-9d8e-528c0748e418.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169715903-7cb0145b-d2cf-4e7a-b40a-dfdc1aa2ca27.png)
