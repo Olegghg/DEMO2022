@@ -72,7 +72,9 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715848-a6c7a5a6-4498-47b1-90f1-5b877b22b78b.png)
 
-![image](https://user-images.githubusercontent.com/99468773/169715856-feb86506-130a-4cc4-8eb7-515b95393cc3.png)
+![image](https://user-images.githubusercontent.com/99468773/170215712-5c63328e-6ef5-4674-8fae-b87685a8a7d6.png)
+
+![image](https://user-images.githubusercontent.com/99468773/170215827-ac795bf2-46af-4232-9d4b-3403481bee0c.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169715872-ddfb1b7e-daad-4912-adf4-d62d7199d824.png)
 
