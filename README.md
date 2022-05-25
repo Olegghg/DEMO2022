@@ -64,7 +64,9 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715799-4d47ee1a-9721-461e-a13c-a4c7ad5a195c.png)
 
-![image](https://user-images.githubusercontent.com/99468773/169715818-a8bd418e-1bac-4f04-b4b3-33847d674fd6.png)
+![image](https://user-images.githubusercontent.com/99468773/170213011-687c105c-dfd1-4694-8c59-e7359a88d338.png)
+
+![image](https://user-images.githubusercontent.com/99468773/170213081-32e1da97-d50e-4483-82c2-1ac8bcf70c71.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169715832-b41f8027-a2ad-4b23-a59e-60694f2afdda.png)
 
@@ -96,6 +98,8 @@ Ctrl+U – вставить текст.
 ![image](https://user-images.githubusercontent.com/99468773/169715958-5ab44b4a-a6d2-4d4f-a15f-7fc795b46945.png)
 
 ![image](https://user-images.githubusercontent.com/99468773/169715966-c2f87b11-69be-4298-aa35-fd65cb776ced.png)
+
+# Перепроверить настройки nftables (prerouting) ";)"
 
 NFS
 
