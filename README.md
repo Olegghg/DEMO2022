@@ -86,7 +86,10 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715937-2b68880d-8b7d-4ef7-9fbf-509dfbd27766.png)
 
-![image](https://user-images.githubusercontent.com/99468773/169715947-44f09860-1633-42d2-8f79-c49604ff39d5.png)
+![image](https://user-images.githubusercontent.com/99468773/170197461-692d4f37-8f7e-4971-b2fc-4421b1f8fc70.png)
+
+![image](https://user-images.githubusercontent.com/99468773/170196417-c43c6336-a868-49a7-b756-2ec955d6072e.png)
+
 
 ![image](https://user-images.githubusercontent.com/99468773/169715953-5903dc01-f030-4d3f-82b0-b1bb78c7397c.png)
 
@@ -118,7 +121,8 @@ systemctl restart nfs-server
 reboot
 
 
-![image](https://user-images.githubusercontent.com/99468773/169715985-63bf38b8-55d4-4425-951a-4f536cc5e27f.png)
+![image](https://user-images.githubusercontent.com/99468773/170196153-362d681b-f047-4f63-9c53-7ba1dd8aa6b6.png)
+
 
 ![image](https://user-images.githubusercontent.com/99468773/169716299-e1b8740c-c1e0-422e-b3f9-6fccad3dd854.png)
 
