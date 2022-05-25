@@ -94,9 +94,29 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715966-c2f87b11-69be-4298-aa35-fd65cb776ced.png)
 
-Альтернатива SMB в конце инструкции.
+NFS
 
-![image](https://user-images.githubusercontent.com/99468773/169715977-293cf956-97e3-44fe-b58e-255d8c83ed9c.png)
+apt install nfs-common nfs-kernel-server
+
+systemctl start nfs-server
+
+systemctl enable nfs-server
+
+nano /etc/exports
+
+/путь к папке   192.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
+/путь к папке   172.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
+
+systemctl restart nfs-server
+
+На Web-ах
+Установить nfs-common
+
+В файл /etc/fstab 
+192.168.100.200:/mnt/storage /opt/share nfs rw
+
+reboot
+
 
 ![image](https://user-images.githubusercontent.com/99468773/169715985-63bf38b8-55d4-4425-951a-4f536cc5e27f.png)
 
@@ -130,26 +150,4 @@ chmod -R 777 /mnt/storage
 
 ![image](https://user-images.githubusercontent.com/99468773/169716786-1331968a-5909-40d2-b2de-e5bd5b4cb7af.png)
 
-NFS
-
-apt install nfs-common nfs-kernel-server
-
-systemctl start nfs-server
-
-systemctl enable nfs-server
-
-nano /etc/exports
-
-/путь к папке   192.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
-/путь к папке   172.168.1.0/24(rw,no_subtree_check,all_squash,root_squash, anonuid=65534,anongid=65534)
-
-systemctl restart nfs-server
-
-На Web-ах
-Установить nfs-common
-
-В файл /etc/fstab 
-192.168.100.200:/mnt/storage /opt/share nfs rw
-
-reboot
 
