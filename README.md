@@ -103,7 +103,6 @@ Ctrl+U – вставить текст.
 
 ![image](https://user-images.githubusercontent.com/99468773/169715966-c2f87b11-69be-4298-aa35-fd65cb776ced.png)
 
-# Перепроверить настройки nftables (prerouting) ";)"
 
 NFS
 
